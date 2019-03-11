@@ -55,6 +55,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CharacterController2D.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\ShotController.cs" />
+     <Compile Include="Assets\Scripts\TeatherController.cs" />
  <Reference Include="Cinemachine">
  <HintPath>C:/Users/James/Desktop/Programming Homework Archive/Capstone Project/Capstone-Project/Capstone Project/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
