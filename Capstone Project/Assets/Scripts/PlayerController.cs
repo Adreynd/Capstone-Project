@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     private bool teather;                   // Teather key input
     private bool crouch;                    // Crouch key input
     private bool jump;                      // Jump key input
-    public bool facing;            // True = right, False = left
+    private bool facing;                    // True = right, False = left
     private bool grounded;                  // On the ground as opposed to in the air?
     private bool camFollow;                 // Camera is in follow mode?
     [System.NonSerialized] public float hMove = 0.0f;             // Ground movement
