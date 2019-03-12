@@ -8,6 +8,9 @@ public class ShotController : MonoBehaviour
     public bool direction;
     private Rigidbody2D body;
 
+    public float time;
+    private float timer;
+
     public GameObject shooter;
     public float speed;
 
@@ -25,5 +28,11 @@ public class ShotController : MonoBehaviour
         {
             body.velocity = transform.right * -1.0f * speed;
         }
+    }
+
+    private void Update()
+    {
+        timer += Time.deltaTime;
+        if(timer > time) { Destroy(body.gameObject); }
     }
 }

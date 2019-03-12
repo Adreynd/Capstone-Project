@@ -92,6 +92,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8d0a29d73b25174193e51319cb285a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  direction: 0
+  time: 0.5
   shooter: {fileID: 3117654493854114479, guid: e43d79f7f0b25474996563aac2c48208, type: 3}
   speed: 30
 --- !u!58 &269138628090500250

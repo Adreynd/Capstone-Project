@@ -13,18 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-03-11T17:35:14.932-07:00
-  initializedAtString: 2019-03-11T17:30:01.893-07:00
+  lastUpdatedAtString: 2019-03-11T18:09:12.482-07:00
+  initializedAtString: 2019-03-11T18:06:50.432-07:00
   entries:
   - path: Capstone Project\.vs\Capstone Project\v15\.suo
     fullPath: C:\Capstone\Capstone-Project\Capstone Project\.vs\Capstone Project\v15\.suo
     projectPath: .vs\Capstone Project\v15\.suo
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\.vs\Capstone Project\v15\Server\sqlite3\storage.ide
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\.vs\Capstone Project\v15\Server\sqlite3\storage.ide
-    projectPath: .vs\Capstone Project\v15\Server\sqlite3\storage.ide
     originalPath: 
     status: 3
     staged: 0
@@ -40,33 +34,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Capstone Project\Assembly-CSharp.csproj
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Assets\Scripts\PlayerController.cs
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Assets\Scripts\PlayerController.cs
-    projectPath: Assets\Scripts\PlayerController.cs
+  - path: Capstone Project\Assets\Scripts\ShotController.cs
+    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Assets\Scripts\ShotController.cs
+    projectPath: Assets\Scripts\ShotController.cs
     originalPath: 
     status: 3
     staged: 0
   - path: Capstone Project\Library\assetDatabase3
     fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\assetDatabase3
     projectPath: Library\assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\CurrentLayout.dwlt
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
     originalPath: 
     status: 3
     staged: 0
@@ -94,81 +70,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Capstone Project\Library\InspectorExpandedItems.asset
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
+  - path: Capstone Project\Library\metadata\13\132cd9eaca0e91043ad4311a645f93c6
+    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\13\132cd9eaca0e91043ad4311a645f93c6
+    projectPath: Library\metadata\13\132cd9eaca0e91043ad4311a645f93c6
     originalPath: 
     status: 3
     staged: 0
-  - path: Capstone Project\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
-    projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
-    projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\metadata\13\136dc24f151211d438acee17aff4e934
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\13\136dc24f151211d438acee17aff4e934
-    projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
-    projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
-    projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\metadata\87\877ef3585573ce44eab899298be23158.info
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\87\877ef3585573ce44eab899298be23158.info
-    projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\metadata\90\902571a6c4cb42d4889236f4bd97118f
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\90\902571a6c4cb42d4889236f4bd97118f
-    projectPath: Library\metadata\90\902571a6c4cb42d4889236f4bd97118f
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
-    projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+  - path: Capstone Project\Library\metadata\c8\c8d0a29d73b25174193e51319cb285a6
+    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\c8\c8d0a29d73b25174193e51319cb285a6
+    projectPath: Library\metadata\c8\c8d0a29d73b25174193e51319cb285a6
     originalPath: 
     status: 3
     staged: 0
@@ -187,12 +97,6 @@ MonoBehaviour:
   - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
     originalPath: 
     status: 3
     staged: 0
@@ -244,29 +148,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Capstone Project\Library\StateCache\Hierarchy\0ccef1-132cd9eaca0e91043a.json
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\StateCache\Hierarchy\0ccef1-132cd9eaca0e91043a.json
-    projectPath: Library\StateCache\Hierarchy\0ccef1-132cd9eaca0e91043a.json
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Capstone Project\Library\StateCache\Hierarchy\0ccef1-mainStage.json
     fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\StateCache\Hierarchy\0ccef1-mainStage.json
     projectPath: Library\StateCache\Hierarchy\0ccef1-mainStage.json
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Capstone Project\Library\StateCache\SceneView\979ca7-132cd9eaca0e91043a.json
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\StateCache\SceneView\979ca7-132cd9eaca0e91043a.json
-    projectPath: Library\StateCache\SceneView\979ca7-132cd9eaca0e91043a.json
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Capstone Project\Library\StateCache\SceneView\979ca7-mainStage.json
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\StateCache\SceneView\979ca7-mainStage.json
-    projectPath: Library\StateCache\SceneView\979ca7-mainStage.json
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Capstone Project\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     fullPath: C:\Capstone\Capstone-Project\Capstone Project\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
@@ -274,35 +160,11 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Capstone Project\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    originalPath: 
-    status: 1
-    staged: 0
   - path: Capstone Project\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     fullPath: C:\Capstone\Capstone-Project\Capstone Project\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Capstone Project\ProjectSettings\QualitySettings.asset
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\ProjectSettings\QualitySettings.asset
-    projectPath: ProjectSettings\QualitySettings.asset
-    originalPath: 
     status: 3
-    staged: 0
-  - path: Capstone Project\ProjectSettings\UnityConnectSettings.asset
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\ProjectSettings\UnityConnectSettings.asset
-    projectPath: ProjectSettings\UnityConnectSettings.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Temp\__Backupscenes\0.backup
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
-    originalPath: 
-    status: 1
     staged: 0
   - path: Capstone Project\Temp\UnityLockfile
     fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityLockfile
@@ -310,69 +172,69 @@ MonoBehaviour:
     originalPath: 
     status: 1
     staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-020b8e8784c0cbe48a9cb40f60e277ec
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-020b8e8784c0cbe48a9cb40f60e277ec
-    projectPath: Temp\UnityTempFile-020b8e8784c0cbe48a9cb40f60e277ec
+  - path: Capstone Project\Temp\UnityTempFile-0e3a56b47b09e56458e20c88a13c4b33
+    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-0e3a56b47b09e56458e20c88a13c4b33
+    projectPath: Temp\UnityTempFile-0e3a56b47b09e56458e20c88a13c4b33
     originalPath: 
     status: 1
     staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-0d50ef1a57a65074d9bbcb3bcd4114d8
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-0d50ef1a57a65074d9bbcb3bcd4114d8
-    projectPath: Temp\UnityTempFile-0d50ef1a57a65074d9bbcb3bcd4114d8
+  - path: Capstone Project\Temp\UnityTempFile-4e29e5e7f3ed1074a81381dd0e7ddf65
+    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-4e29e5e7f3ed1074a81381dd0e7ddf65
+    projectPath: Temp\UnityTempFile-4e29e5e7f3ed1074a81381dd0e7ddf65
     originalPath: 
     status: 1
     staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-26224ed337eebca4eb01b066aa308aaf
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-26224ed337eebca4eb01b066aa308aaf
-    projectPath: Temp\UnityTempFile-26224ed337eebca4eb01b066aa308aaf
+  - path: Capstone Project\Temp\UnityTempFile-6b2d0eef817e8994a84bc3f9335495c1
+    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-6b2d0eef817e8994a84bc3f9335495c1
+    projectPath: Temp\UnityTempFile-6b2d0eef817e8994a84bc3f9335495c1
     originalPath: 
     status: 1
     staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-4ce305506c3a56547bcd31aa2ef0cf22
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-4ce305506c3a56547bcd31aa2ef0cf22
-    projectPath: Temp\UnityTempFile-4ce305506c3a56547bcd31aa2ef0cf22
+  - path: Capstone Project\Temp\UnityTempFile-72083992cc09e1946b3464e67f4cac8a
+    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-72083992cc09e1946b3464e67f4cac8a
+    projectPath: Temp\UnityTempFile-72083992cc09e1946b3464e67f4cac8a
     originalPath: 
     status: 1
     staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-5f7fd29844906e94cb5c0c6ad75c0ad8
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-5f7fd29844906e94cb5c0c6ad75c0ad8
-    projectPath: Temp\UnityTempFile-5f7fd29844906e94cb5c0c6ad75c0ad8
+  - path: Capstone Project\Temp\UnityTempFile-7a6d5866143a067409b78c7ab8694f87
+    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-7a6d5866143a067409b78c7ab8694f87
+    projectPath: Temp\UnityTempFile-7a6d5866143a067409b78c7ab8694f87
     originalPath: 
     status: 1
     staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-8aedc06cab6316b4dbc86e2f005c08e9
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-8aedc06cab6316b4dbc86e2f005c08e9
-    projectPath: Temp\UnityTempFile-8aedc06cab6316b4dbc86e2f005c08e9
+  - path: Capstone Project\Temp\UnityTempFile-7eb39a86a2fd2aa449d51b0b193c2f28
+    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-7eb39a86a2fd2aa449d51b0b193c2f28
+    projectPath: Temp\UnityTempFile-7eb39a86a2fd2aa449d51b0b193c2f28
     originalPath: 
     status: 1
     staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-9e00241ae34a89845a4617661f974071
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-9e00241ae34a89845a4617661f974071
-    projectPath: Temp\UnityTempFile-9e00241ae34a89845a4617661f974071
+  - path: Capstone Project\Temp\UnityTempFile-8454597f868eef2408584caa3625b1c3
+    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-8454597f868eef2408584caa3625b1c3
+    projectPath: Temp\UnityTempFile-8454597f868eef2408584caa3625b1c3
     originalPath: 
     status: 1
     staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-aff6f645cef2a8145b59b258452d58f3
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-aff6f645cef2a8145b59b258452d58f3
-    projectPath: Temp\UnityTempFile-aff6f645cef2a8145b59b258452d58f3
+  - path: Capstone Project\Temp\UnityTempFile-89367b39cc08c5242832c210875d7521
+    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-89367b39cc08c5242832c210875d7521
+    projectPath: Temp\UnityTempFile-89367b39cc08c5242832c210875d7521
     originalPath: 
     status: 1
     staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-b5f42a991812b144e9031e7be32e0e77
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-b5f42a991812b144e9031e7be32e0e77
-    projectPath: Temp\UnityTempFile-b5f42a991812b144e9031e7be32e0e77
+  - path: Capstone Project\Temp\UnityTempFile-91ca8b987f53bb645a86fed6021d709c
+    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-91ca8b987f53bb645a86fed6021d709c
+    projectPath: Temp\UnityTempFile-91ca8b987f53bb645a86fed6021d709c
     originalPath: 
     status: 1
     staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-eb2ec8d06bbf3ce4ab324371f71b13a3
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-eb2ec8d06bbf3ce4ab324371f71b13a3
-    projectPath: Temp\UnityTempFile-eb2ec8d06bbf3ce4ab324371f71b13a3
+  - path: Capstone Project\Temp\UnityTempFile-993df01ab1c03b54290837e12a55b8fe
+    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-993df01ab1c03b54290837e12a55b8fe
+    projectPath: Temp\UnityTempFile-993df01ab1c03b54290837e12a55b8fe
     originalPath: 
     status: 1
     staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-fc66d8db229d73649b59f0238f79fc85
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-fc66d8db229d73649b59f0238f79fc85
-    projectPath: Temp\UnityTempFile-fc66d8db229d73649b59f0238f79fc85
+  - path: Capstone Project\Temp\UnityTempFile-fc392493f48e9354a943d73180709d2f
+    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-fc392493f48e9354a943d73180709d2f
+    projectPath: Temp\UnityTempFile-fc392493f48e9354a943d73180709d2f
     originalPath: 
     status: 1
     staged: 0
