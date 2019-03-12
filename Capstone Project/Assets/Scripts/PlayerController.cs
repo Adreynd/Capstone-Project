@@ -14,10 +14,19 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float speed = 0.0f;   // Character ground speed
 
-    private bool teather;                   // Teather key input
+    private float timer;
+    
     private bool fire;                      // Attack key input
+    public float fireRate;                  // How fast you can shoot
+    private float nextFire;                 //counter for fire rate
+    private GameObject settingshot;
+
+    private KeyCode jumpKey = KeyCode.Z;
+    private KeyCode fireKey = KeyCode.X;
+    private bool teather;                   // Teather key input
     private bool crouch;                    // Crouch key input
     private bool jump;                      // Jump key input
+    public bool facing;            // True = right, False = left
     private bool grounded;                  // On the ground as opposed to in the air?
     private bool camFollow;                 // Camera is in follow mode?
     [System.NonSerialized] public float hMove = 0.0f;             // Ground movement
@@ -28,7 +37,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-
+        facing = true;
         body = GetComponent<Rigidbody2D>();
         SetInitialState();
     }
@@ -41,16 +50,21 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //timer
+        timer += Time.deltaTime;
+
         hMove = Input.GetAxisRaw("Horizontal");
         // animate.SetBool("Moving", hMove != 0);
         // animate.SetBool("Crouch", Input.GetButtonDown("Crouched");
 
-        if (Input.GetButtonDown("Jump") && grounded)
+        #region Keys
+        if (Input.GetKeyDown(jumpKey) && grounded)
         {
             // animate.SetTrigger("Jumping");
             jump = true;
         }
-        else if (Input.GetButtonUp("Jump") && !grounded)
+
+        else if (Input.GetKeyDown(jumpKey) && !grounded)
         {
             if (body.velocity.y > 0)
                 body.velocity = new Vector2(body.velocity.x, body.velocity.y * .5f);
@@ -61,23 +75,39 @@ public class PlayerController : MonoBehaviour
         else if (Input.GetButtonUp("Crouch"))
             crouch = false;
 
-        if (Input.GetButtonDown("Attack"))
+        if (Input.GetKeyDown(fireKey))
         {
             fire = true;
+        }
+        
+        if(Input.GetKeyUp(fireKey))
+        {
+            fire = false;
         }
 
         if (Input.GetButtonDown("Teather"))
         {
             teather = true;
         }
+        #endregion
     }
 
     void FixedUpdate()
     {
         controller.Move(hMove * speed * Time.fixedDeltaTime, crouch, jump);
+
+        //direction facing
+        if (hMove > 0) { facing = true; }
+        else if (hMove < 0) { facing = false; }
+
         grounded = controller.m_Grounded;
-        if (fire)
+
+        if (fire && timer > fireRate)
+        {
             Attack();
+            timer = 0.0f;
+        }
+
         if (teather)
             CastTether();
 
@@ -96,6 +126,17 @@ public class PlayerController : MonoBehaviour
 
     void Attack()
     {
+        Vector3 attackSpawn = body.position;
+        Quaternion placeholderRotation = new Quaternion();
 
+        //change spawn location based on facing direction
+        if(facing){ attackSpawn.x++; }
+        else if(!facing){ attackSpawn.x--; }
+
+        //shoot the shot
+        settingshot = Instantiate(shot, attackSpawn, placeholderRotation);
+
+        //set shot direction
+        settingshot.GetComponent<ShotController>().direction = facing;
     }
 }
