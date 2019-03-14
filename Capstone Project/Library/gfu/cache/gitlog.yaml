@@ -13,9 +13,54 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-03-14T10:06:46.116-07:00
-  initializedAtString: 2019-03-14T10:05:16.558-07:00
+  lastUpdatedAtString: 2019-03-14T10:13:36.097-07:00
+  initializedAtString: 2019-03-14T10:13:36.097-07:00
   log:
+  - commitID: cbc325bfb59a6598a0441041d2d2f6d6505d8214
+    mergeA: b7db3937ffda64ccc46c35ec9c174558ce1697ec
+    mergeB: 8f98aef95d729e5d4c15a8925306ac6bf1413ab9
+    authorName: T-Snader
+    authorEmail: 47193410+T-Snader@users.noreply.github.com
+    commitEmail: 47193410+T-Snader@users.noreply.github.com
+    commitName: T-Snader
+    summary: Test
+    description: Test
+    timeString: 2019-03-14T10:08:52.000-07:00
+    commitTimeString: 2019-03-14T10:08:52.000-07:00
+    changes: []
+  - commitID: b7db3937ffda64ccc46c35ec9c174558ce1697ec
+    mergeA: 
+    mergeB: 
+    authorName: T-Snader
+    authorEmail: 47193410+T-Snader@users.noreply.github.com
+    commitEmail: 47193410+T-Snader@users.noreply.github.com
+    commitName: T-Snader
+    summary: Test
+    description: Test
+    timeString: 2019-03-14T10:07:53.000-07:00
+    commitTimeString: 2019-03-14T10:07:53.000-07:00
+    changes:
+    - path: Capstone Project\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 905aabb15d794049ebb8bd76574a7dea1c5e5a6b
     mergeA: 
     mergeB: 
@@ -24,7 +69,7 @@ MonoBehaviour:
     commitEmail: 47193410+T-Snader@users.noreply.github.com
     commitName: T-Snader
     summary: Test
-    description: 
+    description: Test
     timeString: 2019-03-14T10:06:42.000-07:00
     commitTimeString: 2019-03-14T10:06:42.000-07:00
     changes:
@@ -84,6 +129,1467 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
+  - commitID: 8f98aef95d729e5d4c15a8925306ac6bf1413ab9
+    mergeA: 
+    mergeB: 
+    authorName: Adreynd
+    authorEmail: jackimball@yahoo.com
+    commitEmail: jackimball@yahoo.com
+    commitName: Adreynd
+    summary: .gitignore addition
+    description: .gitignore addition
+    timeString: 2019-03-13T21:52:13.000-07:00
+    commitTimeString: 2019-03-13T21:52:13.000-07:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\.gitignore
+      projectPath: ..\.gitignore
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Assembly-CSharp.csproj
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\CurrentLayout.dwlt
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\expandedItems
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 0d852b7b815d77d4f15ebc738db396de2bbd9bfa
+    mergeA: 
+    mergeB: 
+    authorName: Adreynd
+    authorEmail: jackimball@yahoo.com
+    commitEmail: jackimball@yahoo.com
+    commitName: Adreynd
+    summary: Adding to .gitignore file
+    description: Adding to .gitignore file
+    timeString: 2019-03-13T21:44:05.000-07:00
+    commitTimeString: 2019-03-13T21:44:05.000-07:00
+    changes:
+    - path: .gitignore
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\.gitignore
+      projectPath: ..\.gitignore
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: ac5c816e2e02cd319622878678f60d5dff408c92
+    mergeA: 
+    mergeB: 
+    authorName: Adreynd
+    authorEmail: jackimball@yahoo.com
+    commitEmail: jackimball@yahoo.com
+    commitName: Adreynd
+    summary: Removed github for unity
+    description: "Removed github for unity\r\n\r\nGithub for unity didn't seem to
+      be working. We'll try to figure it out later if anyone actually cares."
+    timeString: 2019-03-13T16:32:26.000-07:00
+    commitTimeString: 2019-03-13T16:32:26.000-07:00
+    changes:
+    - path: Capstone Project\Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Assembly-CSharp.csproj
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Capstone Project.sln
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Capstone Project.sln
+      projectPath: Capstone Project.sln
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\CurrentLayout.dwlt
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Cinemachine.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Cinemachine.dll
+      projectPath: Library\ScriptAssemblies\Cinemachine.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Cinemachine.pdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Cinemachine.pdb
+      projectPath: Library\ScriptAssemblies\Cinemachine.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+      projectPath: Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.pdb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.pdb
+      projectPath: Library\ScriptAssemblies\com.unity.cinemachine.editor.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\StateCache\Hierarchy\0ccef1-mainStage.json
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\StateCache\Hierarchy\0ccef1-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\0ccef1-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\assetDatabase3
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\01\0181db608628b494d8ae50728e507ce1
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\01\0181db608628b494d8ae50728e507ce1
+      projectPath: Library\metadata\01\0181db608628b494d8ae50728e507ce1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+      projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+      projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\07\0741931578c80e84f85b10a15f9509e5
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\07\0741931578c80e84f85b10a15f9509e5
+      projectPath: Library\metadata\07\0741931578c80e84f85b10a15f9509e5
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\07\0741931578c80e84f85b10a15f9509e5.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\07\0741931578c80e84f85b10a15f9509e5.info
+      projectPath: Library\metadata\07\0741931578c80e84f85b10a15f9509e5.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\11\1186b8795dc3fc84e8ec53bd314d8e91
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\11\1186b8795dc3fc84e8ec53bd314d8e91
+      projectPath: Library\metadata\11\1186b8795dc3fc84e8ec53bd314d8e91
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+      projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+      projectPath: Library\metadata\11\1186e0491049e40ba8e7e19e418d9e8e.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\13\136dc24f151211d438acee17aff4e934
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\13\136dc24f151211d438acee17aff4e934
+      projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+      projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+      projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+      projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\15\15ef94834d9e4aa44ac8fe619843346b
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\15\15ef94834d9e4aa44ac8fe619843346b
+      projectPath: Library\metadata\15\15ef94834d9e4aa44ac8fe619843346b
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\18\180ecf9b41d478f468eb3e9083753217
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\18\180ecf9b41d478f468eb3e9083753217
+      projectPath: Library\metadata\18\180ecf9b41d478f468eb3e9083753217
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+      projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+      projectPath: Library\metadata\18\181f65fb096cedd4493bc9971257d8b1.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\1f\1ff9d8296ed1f02419bf4f417ff2265e
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\1f\1ff9d8296ed1f02419bf4f417ff2265e
+      projectPath: Library\metadata\1f\1ff9d8296ed1f02419bf4f417ff2265e
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+      projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+      projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\23\23c8bee69b591054094d32918f98facd
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\23\23c8bee69b591054094d32918f98facd
+      projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+      projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+      projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+      projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\2a\2adf148a19499274795e418631d7db45
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\2a\2adf148a19499274795e418631d7db45
+      projectPath: Library\metadata\2a\2adf148a19499274795e418631d7db45
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\2c\2c760cb7073c57e44959f36cbed8ed39
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\2c\2c760cb7073c57e44959f36cbed8ed39
+      projectPath: Library\metadata\2c\2c760cb7073c57e44959f36cbed8ed39
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\32\3226d9f88577be74197693bd17cff8c3
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\32\3226d9f88577be74197693bd17cff8c3
+      projectPath: Library\metadata\32\3226d9f88577be74197693bd17cff8c3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\3f\3f7c779802a73d5448e38af7c39fbaa5
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\3f\3f7c779802a73d5448e38af7c39fbaa5
+      projectPath: Library\metadata\3f\3f7c779802a73d5448e38af7c39fbaa5
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\47\4700f9f03ad19f94baf0367cb7a9c988
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\47\4700f9f03ad19f94baf0367cb7a9c988
+      projectPath: Library\metadata\47\4700f9f03ad19f94baf0367cb7a9c988
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+      projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+      projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\4a\4a9c464b0191f7d4da1d129d97d8240b
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\4a\4a9c464b0191f7d4da1d129d97d8240b
+      projectPath: Library\metadata\4a\4a9c464b0191f7d4da1d129d97d8240b
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\4f\4fa53a91a43ae1a4bbf6b29961b45c38
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\4f\4fa53a91a43ae1a4bbf6b29961b45c38
+      projectPath: Library\metadata\4f\4fa53a91a43ae1a4bbf6b29961b45c38
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+      projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
+      projectPath: Library\metadata\55\555cd6f54c03341b1970d950df1a5ee5.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\57\57744762d9079934292f57896d8193e0
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\57\57744762d9079934292f57896d8193e0
+      projectPath: Library\metadata\57\57744762d9079934292f57896d8193e0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\63\636d33ae594884e7d80b569f429d245d
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\63\636d33ae594884e7d80b569f429d245d
+      projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+      projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1ddb.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+      projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+      projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\7c\7cf5f54319ece1849ab8b668c95cc0e1
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\7c\7cf5f54319ece1849ab8b668c95cc0e1
+      projectPath: Library\metadata\7c\7cf5f54319ece1849ab8b668c95cc0e1
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\7c\7cf5f54319ece1849ab8b668c95cc0e1.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\7c\7cf5f54319ece1849ab8b668c95cc0e1.info
+      projectPath: Library\metadata\7c\7cf5f54319ece1849ab8b668c95cc0e1.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\82\829e606f890b35c47aa29643517add2e
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\82\829e606f890b35c47aa29643517add2e
+      projectPath: Library\metadata\82\829e606f890b35c47aa29643517add2e
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+      projectPath: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
+      projectPath: Library\metadata\86\863e1b9976c4e46d29bf83928b3a8ab2.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+      projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+      projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\87\877ef3585573ce44eab899298be23158
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\87\877ef3585573ce44eab899298be23158
+      projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\87\877ef3585573ce44eab899298be23158.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\87\877ef3585573ce44eab899298be23158.info
+      projectPath: Library\metadata\87\877ef3585573ce44eab899298be23158.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\8a\8ad60cb17f7694c43a8190c617281753
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\8a\8ad60cb17f7694c43a8190c617281753
+      projectPath: Library\metadata\8a\8ad60cb17f7694c43a8190c617281753
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\9a\9a53087ba28aaf145a184ea363108831
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\9a\9a53087ba28aaf145a184ea363108831
+      projectPath: Library\metadata\9a\9a53087ba28aaf145a184ea363108831
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\9c\9ce16cd7e31794b48b2843381cd87d31
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\9c\9ce16cd7e31794b48b2843381cd87d31
+      projectPath: Library\metadata\9c\9ce16cd7e31794b48b2843381cd87d31
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\a5\a5969901aa40942499363f92e3787110
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\a5\a5969901aa40942499363f92e3787110
+      projectPath: Library\metadata\a5\a5969901aa40942499363f92e3787110
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\a6\a60d9407e2bb20e4ea00281b1e33eae7
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\a6\a60d9407e2bb20e4ea00281b1e33eae7
+      projectPath: Library\metadata\a6\a60d9407e2bb20e4ea00281b1e33eae7
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\a7\a73149a4b6c41d741bc5e4e3b7711c0d
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\a7\a73149a4b6c41d741bc5e4e3b7711c0d
+      projectPath: Library\metadata\a7\a73149a4b6c41d741bc5e4e3b7711c0d
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\a8\a8725b08dfa3851468b1f029bb53c966
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\a8\a8725b08dfa3851468b1f029bb53c966
+      projectPath: Library\metadata\a8\a8725b08dfa3851468b1f029bb53c966
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\a9\a9e63e62da42ce141b35602019323584
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\a9\a9e63e62da42ce141b35602019323584
+      projectPath: Library\metadata\a9\a9e63e62da42ce141b35602019323584
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\ac\aceb1a3f85f55c249bba6eaade29f2aa
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\ac\aceb1a3f85f55c249bba6eaade29f2aa
+      projectPath: Library\metadata\ac\aceb1a3f85f55c249bba6eaade29f2aa
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\b1\b171a72da1336124ca98d558ceedec0e
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\b1\b171a72da1336124ca98d558ceedec0e
+      projectPath: Library\metadata\b1\b171a72da1336124ca98d558ceedec0e
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\b1\b171a72da1336124ca98d558ceedec0e.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\b1\b171a72da1336124ca98d558ceedec0e.info
+      projectPath: Library\metadata\b1\b171a72da1336124ca98d558ceedec0e.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\b1\b1a97a2b5515f5d49977e7e8add5b7a9
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\b1\b1a97a2b5515f5d49977e7e8add5b7a9
+      projectPath: Library\metadata\b1\b1a97a2b5515f5d49977e7e8add5b7a9
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\b5\b567991935cb6844d9bb65eda22b628f
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\b5\b567991935cb6844d9bb65eda22b628f
+      projectPath: Library\metadata\b5\b567991935cb6844d9bb65eda22b628f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\b5\b56f2475416eeea4c916add2d7268ad1
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\b5\b56f2475416eeea4c916add2d7268ad1
+      projectPath: Library\metadata\b5\b56f2475416eeea4c916add2d7268ad1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\ba\ba59c38a116ff2f4fb69f825ba0da3bc
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\ba\ba59c38a116ff2f4fb69f825ba0da3bc
+      projectPath: Library\metadata\ba\ba59c38a116ff2f4fb69f825ba0da3bc
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\c0\c0d6910df7c989c4abc7d5ddf0e421b2
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\c0\c0d6910df7c989c4abc7d5ddf0e421b2
+      projectPath: Library\metadata\c0\c0d6910df7c989c4abc7d5ddf0e421b2
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+      projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+      projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\c6\c63cb4cb8e3e82c4f8bfa7516da4f2b5
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\c6\c63cb4cb8e3e82c4f8bfa7516da4f2b5
+      projectPath: Library\metadata\c6\c63cb4cb8e3e82c4f8bfa7516da4f2b5
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\c6\c64ec1fa74cb7174da4b9f561a7dffe1
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\c6\c64ec1fa74cb7174da4b9f561a7dffe1
+      projectPath: Library\metadata\c6\c64ec1fa74cb7174da4b9f561a7dffe1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ab.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\cb\cb24a8a44957bf24e8a013759e2a94b9
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\cb\cb24a8a44957bf24e8a013759e2a94b9
+      projectPath: Library\metadata\cb\cb24a8a44957bf24e8a013759e2a94b9
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\cb\cb24a8a44957bf24e8a013759e2a94b9.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\cb\cb24a8a44957bf24e8a013759e2a94b9.info
+      projectPath: Library\metadata\cb\cb24a8a44957bf24e8a013759e2a94b9.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\ce\cebc3fe47a919524eb4a977f726a484e
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\ce\cebc3fe47a919524eb4a977f726a484e
+      projectPath: Library\metadata\ce\cebc3fe47a919524eb4a977f726a484e
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+      projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+      projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+      projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+      projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\d9\d97860156f9137e4b88db3d4b06d3f3f
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\d9\d97860156f9137e4b88db3d4b06d3f3f
+      projectPath: Library\metadata\d9\d97860156f9137e4b88db3d4b06d3f3f
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\d9\d97860156f9137e4b88db3d4b06d3f3f.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\d9\d97860156f9137e4b88db3d4b06d3f3f.info
+      projectPath: Library\metadata\d9\d97860156f9137e4b88db3d4b06d3f3f.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+      projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
+      projectPath: Library\metadata\da\dae2ecee8a704dd59797e26554ff8606.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+      projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+      projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\e4\e43d79f7f0b25474996563aac2c48208
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\e4\e43d79f7f0b25474996563aac2c48208
+      projectPath: Library\metadata\e4\e43d79f7f0b25474996563aac2c48208
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\e4\e44b92e217bfdf24d99acb4344918eeb
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\e4\e44b92e217bfdf24d99acb4344918eeb
+      projectPath: Library\metadata\e4\e44b92e217bfdf24d99acb4344918eeb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\e4\e46ac8d61dc065848bd5a1aa7cd8c006
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\e4\e46ac8d61dc065848bd5a1aa7cd8c006
+      projectPath: Library\metadata\e4\e46ac8d61dc065848bd5a1aa7cd8c006
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\eb\eb8e037cb3f873743a725427c8c22342
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\eb\eb8e037cb3f873743a725427c8c22342
+      projectPath: Library\metadata\eb\eb8e037cb3f873743a725427c8c22342
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\ed\ed3efd28525441947b55ec9b5d68ba31
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\ed\ed3efd28525441947b55ec9b5d68ba31
+      projectPath: Library\metadata\ed\ed3efd28525441947b55ec9b5d68ba31
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\ee\ee42f1964a0e8224c90be81905946699
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\ee\ee42f1964a0e8224c90be81905946699
+      projectPath: Library\metadata\ee\ee42f1964a0e8224c90be81905946699
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\f4\f4a9c618db8862d4bb7a0ffc950d4797
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\f4\f4a9c618db8862d4bb7a0ffc950d4797
+      projectPath: Library\metadata\f4\f4a9c618db8862d4bb7a0ffc950d4797
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\f4\f4a9c618db8862d4bb7a0ffc950d4797.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\f4\f4a9c618db8862d4bb7a0ffc950d4797.info
+      projectPath: Library\metadata\f4\f4a9c618db8862d4bb7a0ffc950d4797.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+      projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+      projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+      projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Capstone Project\Library\metadata\fc\fc54afb14b6b01a4dabc4c8831cb7bf7
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\metadata\fc\fc54afb14b6b01a4dabc4c8831cb7bf7
+      projectPath: Library\metadata\fc\fc54afb14b6b01a4dabc4c8831cb7bf7
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: bf5dbd9884ea07b6516e2cf7742495d557296402
+    mergeA: 
+    mergeB: 
+    authorName: Adreynd
+    authorEmail: 38084145+Adreynd@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Add files via upload
+    description: Add files via upload
+    timeString: 2019-03-13T15:58:29.000-07:00
+    commitTimeString: 2019-03-13T15:58:29.000-07:00
+    changes:
+    - path: Capstone Project\.gitignore
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 4
+      staged: 0
   - commitID: eb20f8d84f236a13e54b9d6c5562f15c774b0789
     mergeA: 
     mergeB: 
@@ -92,7 +1598,7 @@ MonoBehaviour:
     commitEmail: noreply@github.com
     commitName: GitHub
     summary: Add files via upload
-    description: 
+    description: Add files via upload
     timeString: 2019-03-13T14:52:06.000-07:00
     commitTimeString: 2019-03-13T14:52:06.000-07:00
     changes:
@@ -111,7 +1617,7 @@ MonoBehaviour:
     commitEmail: 47193410+T-Snader@users.noreply.github.com
     commitName: T-Snader
     summary: Github for Unity
-    description: commit changes from desktop
+    description: "Github for Unity\r\n\r\ncommit changes from desktop"
     timeString: 2019-03-13T14:47:39.000-07:00
     commitTimeString: 2019-03-13T14:47:39.000-07:00
     changes:
@@ -508,7 +2014,7 @@ MonoBehaviour:
     commitEmail: wallaceg@my.lanecc.edu
     commitName: Gordon
     summary: updated shot
-    description: 
+    description: updated shot
     timeString: 2019-03-11T18:09:50.000-07:00
     commitTimeString: 2019-03-11T18:09:50.000-07:00
     changes:
@@ -709,7 +2215,7 @@ MonoBehaviour:
     commitEmail: wallaceg@my.lanecc.edu
     commitName: Gordon
     summary: Fixed player controller script
-    description: 
+    description: Fixed player controller script
     timeString: 2019-03-11T17:37:09.000-07:00
     commitTimeString: 2019-03-11T17:37:09.000-07:00
     changes:
@@ -1043,7 +2549,7 @@ MonoBehaviour:
     commitEmail: wallaceg@my.lanecc.edu
     commitName: Gordon
     summary: aded basic shooting to player
-    description: 
+    description: aded basic shooting to player
     timeString: 2019-03-11T17:29:05.000-07:00
     commitTimeString: 2019-03-11T17:29:05.000-07:00
     changes: []
@@ -1055,7 +2561,7 @@ MonoBehaviour:
     commitEmail: wallaceg@my.lanecc.edu
     commitName: Gordon
     summary: Added basic shooting to player
-    description: 
+    description: Added basic shooting to player
     timeString: 2019-03-11T17:25:51.000-07:00
     commitTimeString: 2019-03-11T17:25:51.000-07:00
     changes:
@@ -2835,7 +4341,7 @@ MonoBehaviour:
     commitEmail: jackimball@yahoo.com
     commitName: Adreynd
     summary: Unity version update
-    description: Updating unity version to 2018.3.8f1
+    description: "Unity version update\r\n\r\nUpdating unity version to 2018.3.8f1"
     timeString: 2019-03-11T15:05:26.000-07:00
     commitTimeString: 2019-03-11T15:05:26.000-07:00
     changes:
@@ -4296,9 +5802,10 @@ MonoBehaviour:
     commitEmail: jackimball@yahoo.com
     commitName: Adreynd
     summary: TeatherController, Script changes, Prefab changes
-    description: TeatherController code started, doesn't do anything other than move
-      and return to the player yet. Minor script changes, Button Input changes, (Character
-      moves with arrows, fires teather with s and attacks with A) Minor prefab changes
+    description: "TeatherController, Script changes, Prefab changes\r\n\r\nTeatherController
+      code started, doesn't do anything other than move and return to the player yet.
+      Minor script changes, Button Input changes, (Character moves with arrows, fires
+      teather with s and attacks with A) Minor prefab changes"
     timeString: 2019-03-10T21:08:28.000-07:00
     commitTimeString: 2019-03-10T21:08:28.000-07:00
     changes:
@@ -4839,7 +6346,8 @@ MonoBehaviour:
     commitEmail: jackimball@yahoo.com
     commitName: Adreynd
     summary: Added jump cancelation
-    description: You can now perform short jumps by releasing the jump key earlier.
+    description: "Added jump cancelation\r\n\r\nYou can now perform short jumps by
+      releasing the jump key earlier."
     timeString: 2019-03-09T16:12:57.000-08:00
     commitTimeString: 2019-03-09T16:12:57.000-08:00
     changes:
@@ -4921,7 +6429,8 @@ MonoBehaviour:
     commitEmail: jackimball@yahoo.com
     commitName: Adreynd
     summary: Character Movement + Script stuff
-    description: Added character movement script and the PlayerController script
+    description: "Character Movement + Script stuff\r\n\r\nAdded character movement
+      script and the PlayerController script"
     timeString: 2019-03-09T15:21:52.000-08:00
     commitTimeString: 2019-03-09T15:21:52.000-08:00
     changes:
@@ -12973,7 +14482,7 @@ MonoBehaviour:
     commitEmail: jackimball@yahoo.com
     commitName: Adreynd
     summary: Begining of Project
-    description: 
+    description: Begining of Project
     timeString: 2019-03-06T14:18:36.000-08:00
     commitTimeString: 2019-03-06T14:18:36.000-08:00
     changes:

@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1697640569, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Script: {fileID: -1697640569, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cacheType: 8
-  lastUpdatedAtString: 2019-03-14T10:05:15.515-07:00
-  initializedAtString: 2019-03-14T10:05:15.492-07:00
+  cacheType: 7
+  lastUpdatedAtString: 2019-03-14T10:12:48.273-07:00
+  initializedAtString: 2019-03-14T10:12:48.246-07:00
   gitName: T-Snader
   gitEmail: 47193410+T-Snader@users.noreply.github.com
