@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-03-14T10:06:30.802-07:00
+  lastUpdatedAtString: 2019-03-14T10:06:44.890-07:00
   initializedAtString: 2019-03-14T10:06:10.204-07:00
   localBranches:
   - name: master

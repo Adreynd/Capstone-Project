@@ -13,9 +13,77 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-03-14T10:06:11.385-07:00
+  lastUpdatedAtString: 2019-03-14T10:06:46.116-07:00
   initializedAtString: 2019-03-14T10:05:16.558-07:00
   log:
+  - commitID: 905aabb15d794049ebb8bd76574a7dea1c5e5a6b
+    mergeA: 
+    mergeB: 
+    authorName: T-Snader
+    authorEmail: 47193410+T-Snader@users.noreply.github.com
+    commitEmail: 47193410+T-Snader@users.noreply.github.com
+    commitName: T-Snader
+    summary: Test
+    description: 
+    timeString: 2019-03-14T10:06:42.000-07:00
+    commitTimeString: 2019-03-14T10:06:42.000-07:00
+    changes:
+    - path: Capstone Project\Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Assembly-CSharp.csproj
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gituser.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: eb20f8d84f236a13e54b9d6c5562f15c774b0789
     mergeA: 
     mergeB: 
