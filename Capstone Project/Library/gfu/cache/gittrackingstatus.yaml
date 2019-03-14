@@ -13,7 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 4
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-03-14T10:07:04.457-07:00
   initializedAtString: 2019-03-14T10:05:14.919-07:00
   ahead: 3
   behind: 4
+=======
+  lastUpdatedAtString: 2019-03-13T16:31:18.490-07:00
+  initializedAtString: 2019-03-13T16:31:18.490-07:00
+  ahead: 0
+  behind: 0
+>>>>>>> 8f98aef95d729e5d4c15a8925306ac6bf1413ab9
