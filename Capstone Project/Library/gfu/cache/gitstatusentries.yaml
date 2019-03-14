@@ -13,228 +13,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-03-11T18:09:12.482-07:00
-  initializedAtString: 2019-03-11T18:06:50.432-07:00
+  lastUpdatedAtString: 2019-03-14T10:05:14.882-07:00
+  initializedAtString: 2019-03-14T10:05:14.882-07:00
   entries:
-  - path: Capstone Project\.vs\Capstone Project\v15\.suo
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\.vs\Capstone Project\v15\.suo
-    projectPath: .vs\Capstone Project\v15\.suo
+  - path: Capstone Project\Assembly-CSharp.csproj
+    fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone Project\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
     originalPath: 
     status: 3
     staged: 0
-  - path: Capstone Project\.vs\Capstone Project\v15\Server\sqlite3\storage.ide-shm
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\.vs\Capstone Project\v15\Server\sqlite3\storage.ide-shm
-    projectPath: .vs\Capstone Project\v15\Server\sqlite3\storage.ide-shm
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\.vs\Capstone Project\v15\Server\sqlite3\storage.ide-wal
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\.vs\Capstone Project\v15\Server\sqlite3\storage.ide-wal
-    projectPath: .vs\Capstone Project\v15\Server\sqlite3\storage.ide-wal
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Assets\Scripts\ShotController.cs
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Assets\Scripts\ShotController.cs
-    projectPath: Assets\Scripts\ShotController.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\assetDatabase3
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\assetDatabase3
-    projectPath: Library\assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\EditorInstance.json
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Capstone Project\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\gfu\cache\gitstatusentries.yaml
-    projectPath: Library\gfu\cache\gitstatusentries.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\gfu\cache\gittrackingstatus.yaml
-    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+  - path: Capstone Project\Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone Project\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
     status: 3
     staged: 0
   - path: Capstone Project\Library\gfu\cache\repoinfo.yaml
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone Project\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0
-  - path: Capstone Project\Library\metadata\13\132cd9eaca0e91043ad4311a645f93c6
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\13\132cd9eaca0e91043ad4311a645f93c6
-    projectPath: Library\metadata\13\132cd9eaca0e91043ad4311a645f93c6
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\metadata\c8\c8d0a29d73b25174193e51319cb285a6
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\metadata\c8\c8d0a29d73b25174193e51319cb285a6
-    projectPath: Library\metadata\c8\c8d0a29d73b25174193e51319cb285a6
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\ScriptAssemblies\Cinemachine.dll
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\ScriptAssemblies\Cinemachine.dll
-    projectPath: Library\ScriptAssemblies\Cinemachine.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-    projectPath: Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Capstone Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     status: 3
-    staged: 0
-  - path: Capstone Project\Library\StateCache\Hierarchy\0ccef1-mainStage.json
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Library\StateCache\Hierarchy\0ccef1-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\0ccef1-mainStage.json
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Capstone Project\Temp\UnityLockfile
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityLockfile
-    projectPath: Temp\UnityLockfile
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-0e3a56b47b09e56458e20c88a13c4b33
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-0e3a56b47b09e56458e20c88a13c4b33
-    projectPath: Temp\UnityTempFile-0e3a56b47b09e56458e20c88a13c4b33
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-4e29e5e7f3ed1074a81381dd0e7ddf65
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-4e29e5e7f3ed1074a81381dd0e7ddf65
-    projectPath: Temp\UnityTempFile-4e29e5e7f3ed1074a81381dd0e7ddf65
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-6b2d0eef817e8994a84bc3f9335495c1
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-6b2d0eef817e8994a84bc3f9335495c1
-    projectPath: Temp\UnityTempFile-6b2d0eef817e8994a84bc3f9335495c1
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-72083992cc09e1946b3464e67f4cac8a
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-72083992cc09e1946b3464e67f4cac8a
-    projectPath: Temp\UnityTempFile-72083992cc09e1946b3464e67f4cac8a
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-7a6d5866143a067409b78c7ab8694f87
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-7a6d5866143a067409b78c7ab8694f87
-    projectPath: Temp\UnityTempFile-7a6d5866143a067409b78c7ab8694f87
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-7eb39a86a2fd2aa449d51b0b193c2f28
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-7eb39a86a2fd2aa449d51b0b193c2f28
-    projectPath: Temp\UnityTempFile-7eb39a86a2fd2aa449d51b0b193c2f28
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-8454597f868eef2408584caa3625b1c3
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-8454597f868eef2408584caa3625b1c3
-    projectPath: Temp\UnityTempFile-8454597f868eef2408584caa3625b1c3
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-89367b39cc08c5242832c210875d7521
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-89367b39cc08c5242832c210875d7521
-    projectPath: Temp\UnityTempFile-89367b39cc08c5242832c210875d7521
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-91ca8b987f53bb645a86fed6021d709c
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-91ca8b987f53bb645a86fed6021d709c
-    projectPath: Temp\UnityTempFile-91ca8b987f53bb645a86fed6021d709c
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-993df01ab1c03b54290837e12a55b8fe
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-993df01ab1c03b54290837e12a55b8fe
-    projectPath: Temp\UnityTempFile-993df01ab1c03b54290837e12a55b8fe
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Capstone Project\Temp\UnityTempFile-fc392493f48e9354a943d73180709d2f
-    fullPath: C:\Capstone\Capstone-Project\Capstone Project\Temp\UnityTempFile-fc392493f48e9354a943d73180709d2f
-    projectPath: Temp\UnityTempFile-fc392493f48e9354a943d73180709d2f
-    originalPath: 
-    status: 1
     staged: 0
