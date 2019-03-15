@@ -13,12 +13,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-03-14T10:15:22.266-07:00
-  initializedAtString: 2019-03-14T10:12:58.667-07:00
+  lastUpdatedAtString: 2019-03-15T07:47:20.272-07:00
+  initializedAtString: 2019-03-15T07:45:03.456-07:00
   entries:
+  - path: Capstone Project\Assets\Creature.fbx
+    fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone Project\Assets\Creature.fbx
+    projectPath: Assets\Creature.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Capstone Project\Assets\Creature.fbx.meta
+    fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone Project\Assets\Creature.fbx.meta
+    projectPath: Assets\Creature.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Capstone Project\Library\assetDatabase3
+    fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone Project\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Capstone Project\Library\gfu\cache\branches.yaml
     fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone Project\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone Project\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -31,6 +55,12 @@ MonoBehaviour:
   - path: Capstone Project\Library\gfu\cache\gittrackingstatus.yaml
     fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone Project\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     status: 3
     staged: 0
