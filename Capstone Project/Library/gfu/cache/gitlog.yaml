@@ -13,9 +13,85 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-03-15T07:45:38.282-07:00
+  lastUpdatedAtString: 2019-03-15T07:48:32.940-07:00
   initializedAtString: 2019-03-15T07:45:38.146-07:00
   log:
+  - commitID: c743aaa5e566fe323fb63a5b4bd2ff907a9a9606
+    mergeA: 
+    mergeB: 
+    authorName: T-Snader
+    authorEmail: 47193410+T-Snader@users.noreply.github.com
+    commitEmail: 47193410+T-Snader@users.noreply.github.com
+    commitName: T-Snader
+    summary: enemy
+    description: "enemy\r\n\r\nI added a model of a little troll i did in a sculpting
+      class that we can use for an enemy for the time being"
+    timeString: 2019-03-15T07:48:09.000-07:00
+    commitTimeString: 2019-03-15T07:48:09.000-07:00
+    changes:
+    - path: Capstone Project\Assets\Creature.fbx
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Creature.fbx
+      projectPath: Assets\Creature.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Assets\Creature.fbx.meta
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Assets\Creature.fbx.meta
+      projectPath: Assets\Creature.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Library\assetDatabase3
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone
+        Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 9ccd07f4ca0b01592efa1ff37b9344df9f727d69
     mergeA: 
     mergeB: 
