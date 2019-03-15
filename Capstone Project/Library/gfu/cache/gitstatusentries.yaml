@@ -13,29 +13,523 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2019-03-15T07:48:13.059-07:00
-  initializedAtString: 2019-03-15T07:45:03.456-07:00
+  lastUpdatedAtString: 2019-03-15T11:34:05.150-07:00
+  initializedAtString: 2019-03-15T11:34:04.227-07:00
   entries:
-  - path: Capstone Project\Library\gfu\cache\branches.yaml
-    fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone Project\Library\gfu\cache\branches.yaml
-    projectPath: Library\gfu\cache\branches.yaml
+  - path: Capstone Project\Assembly-CSharp.csproj
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Assets\Art.meta
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Assets\Art.meta
+    projectPath: Assets\Art.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Capstone Project\Assets\Art\Creature.fbx
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Assets\Art\Creature.fbx
+    projectPath: Assets\Art\Creature.fbx
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Capstone Project\Assets\Art\Creature.fbx.meta
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Assets\Art\Creature.fbx.meta
+    projectPath: Assets\Art\Creature.fbx.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Capstone Project\Assets\Art\Robot_Prototype.mb
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Assets\Art\Robot_Prototype.mb
+    projectPath: Assets\Art\Robot_Prototype.mb
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Capstone Project\Assets\Art\Robot_Prototype.mb.meta
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Assets\Art\Robot_Prototype.mb.meta
+    projectPath: Assets\Art\Robot_Prototype.mb.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Capstone Project\Assets\Creature.fbx
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Assets\Creature.fbx
+    projectPath: Assets\Creature.fbx
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Capstone Project\Assets\Creature.fbx.meta
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Assets\Creature.fbx.meta
+    projectPath: Assets\Creature.fbx.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Capstone Project\Assets\Prefabs\Player.prefab
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Assets\Prefabs\Player.prefab
+    projectPath: Assets\Prefabs\Player.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Assets\Robot_Prototype.mb
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Assets\Robot_Prototype.mb
+    projectPath: Assets\Robot_Prototype.mb
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Capstone Project\Assets\Robot_Prototype.mb.meta
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Assets\Robot_Prototype.mb.meta
+    projectPath: Assets\Robot_Prototype.mb.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Capstone Project\Assets\Scenes\Main.unity
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Assets\Scenes\Main.unity
+    projectPath: Assets\Scenes\Main.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Assets\Scripts\PlayerController.cs
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Assets\Scripts\PlayerController.cs
+    projectPath: Assets\Scripts\PlayerController.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Capstone Project.sln
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Capstone Project.sln
+    projectPath: Capstone Project.sln
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\assetDatabase3
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\CurrentLayout.dwlt
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\expandedItems
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\expandedItems
+    projectPath: Library\expandedItems
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Capstone Project\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone Project\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     status: 3
     staged: 0
   - path: Capstone Project\Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone Project\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
-    status: 5
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
+    projectPath: Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
+    projectPath: Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
+    projectPath: Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\3b\3bb0254b9671413d9d08a855c5090237
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\3b\3bb0254b9671413d9d08a855c5090237
+    projectPath: Library\metadata\3b\3bb0254b9671413d9d08a855c5090237
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
+    projectPath: Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\40\405b9b51bb344a128608d968297df79c
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\40\405b9b51bb344a128608d968297df79c
+    projectPath: Library\metadata\40\405b9b51bb344a128608d968297df79c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+    projectPath: Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\46\46098a81a64a45c5b756320e10a22f13
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\46\46098a81a64a45c5b756320e10a22f13
+    projectPath: Library\metadata\46\46098a81a64a45c5b756320e10a22f13
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
+    projectPath: Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+    projectPath: Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+    projectPath: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+    projectPath: Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
+    projectPath: Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
+    projectPath: Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
+    projectPath: Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
+    projectPath: Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\76\7668179ede524d6396c8b7d84461ea29
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\76\7668179ede524d6396c8b7d84461ea29
+    projectPath: Library\metadata\76\7668179ede524d6396c8b7d84461ea29
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+    projectPath: Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\84\844f815391db42d49455cbf1a7bfc434
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\84\844f815391db42d49455cbf1a7bfc434
+    projectPath: Library\metadata\84\844f815391db42d49455cbf1a7bfc434
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
+    projectPath: Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\90\902571a6c4cb42d4889236f4bd97118f
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\90\902571a6c4cb42d4889236f4bd97118f
+    projectPath: Library\metadata\90\902571a6c4cb42d4889236f4bd97118f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\b2\b2b693dffac3a4433b3114fea0b7fd4e
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\b2\b2b693dffac3a4433b3114fea0b7fd4e
+    projectPath: Library\metadata\b2\b2b693dffac3a4433b3114fea0b7fd4e
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\b5\b5da970776034f77a070d99423d68791
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\b5\b5da970776034f77a070d99423d68791
+    projectPath: Library\metadata\b5\b5da970776034f77a070d99423d68791
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
+    projectPath: Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
+    projectPath: Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\e1\e1007cd261c84053beb0c3537782908d
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\e1\e1007cd261c84053beb0c3537782908d
+    projectPath: Library\metadata\e1\e1007cd261c84053beb0c3537782908d
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\e4\e43d79f7f0b25474996563aac2c48208
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\e4\e43d79f7f0b25474996563aac2c48208
+    projectPath: Library\metadata\e4\e43d79f7f0b25474996563aac2c48208
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\e4\e43d79f7f0b25474996563aac2c48208.info
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\e4\e43d79f7f0b25474996563aac2c48208.info
+    projectPath: Library\metadata\e4\e43d79f7f0b25474996563aac2c48208.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
+    projectPath: Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
+    projectPath: Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
+    projectPath: Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+    projectPath: Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+    projectPath: Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Cinemachine.dll
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Cinemachine.dll
+    projectPath: Library\ScriptAssemblies\Cinemachine.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Cinemachine.pdb
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Cinemachine.pdb
+    projectPath: Library\ScriptAssemblies\Cinemachine.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+    projectPath: Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.pdb
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.pdb
+    projectPath: Library\ScriptAssemblies\com.unity.cinemachine.editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    originalPath: 
+    status: 3
     staged: 0
   - path: Capstone Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\Sipho\Desktop\Capstone_Project\Capstone-Project\Capstone Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+      Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     status: 3

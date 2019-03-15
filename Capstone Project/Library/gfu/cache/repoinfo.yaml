@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-03-15T07:48:32.093-07:00
-  initializedAtString: 2019-03-15T07:45:03.032-07:00
+  lastUpdatedAtString: 2019-03-15T11:34:03.917-07:00
+  initializedAtString: 2019-03-15T11:34:03.917-07:00
   currentGitRemote:
     name: origin
-    url: https://github.com/Adreynd/Capstone-Project
+    url: https://github.com/Adreynd/Capstone-Project.git
     login: 
     user: 
     host: 
@@ -30,9 +30,9 @@ MonoBehaviour:
     name: master
     remote:
       name: origin
-      url: https://github.com/Adreynd/Capstone-Project
+      url: https://github.com/Adreynd/Capstone-Project.git
     trackingBranch: master
   currentConfigRemote:
     name: origin
-    url: https://github.com/Adreynd/Capstone-Project
+    url: https://github.com/Adreynd/Capstone-Project.git
   currentHead: 

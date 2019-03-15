@@ -75,12 +75,12 @@ public class PlayerController : MonoBehaviour
         else if (Input.GetButtonUp("Crouch"))
             crouch = false;
 
-        if (Input.GetKeyDown(fireKey))
+        if (Input.GetButtonDown("Attack"))
         {
             fire = true;
         }
         
-        if(Input.GetKeyUp(fireKey))
+        if(Input.GetButtonUp("Attack"))
         {
             fire = false;
         }
