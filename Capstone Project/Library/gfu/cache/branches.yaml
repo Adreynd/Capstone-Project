@@ -13,27 +13,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-03-15T07:48:32.024-07:00
-  initializedAtString: 2019-03-15T07:45:32.502-07:00
+  lastUpdatedAtString: 2019-03-16T14:31:52.826-07:00
+  initializedAtString: 2019-03-16T12:30:16.196-07:00
   localBranches:
   - name: master
     tracking: origin/master
   remoteBranches:
   - name: origin/HEAD
     tracking: '[None]'
-  - name: origin/master
-    tracking: '[None]'
-  - name: upstream/master
-    tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/Adreynd/Capstone-Project
-    login: 
-    user: 
-    host: 
-    function: 0
-    token: 
-  - name: upstream
     url: https://github.com/Adreynd/Capstone-Project.git
     login: 
     user: 
@@ -47,42 +36,24 @@ MonoBehaviour:
     - name: master
       remote:
         name: origin
-        url: https://github.com/Adreynd/Capstone-Project
+        url: https://github.com/Adreynd/Capstone-Project.git
       trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
-    - upstream
     subKeys:
     - Values:
       - HEAD
-      - master
-    - Values:
-      - master
     subKeyValues:
     - Values:
       - name: HEAD
         remote:
           name: origin
-          url: https://github.com/Adreynd/Capstone-Project
-        trackingBranch: 
-      - name: master
-        remote:
-          name: origin
-          url: https://github.com/Adreynd/Capstone-Project
-        trackingBranch: 
-    - Values:
-      - name: master
-        remote:
-          name: upstream
           url: https://github.com/Adreynd/Capstone-Project.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
-    - upstream
     values:
     - name: origin
-      url: https://github.com/Adreynd/Capstone-Project
-    - name: upstream
       url: https://github.com/Adreynd/Capstone-Project.git

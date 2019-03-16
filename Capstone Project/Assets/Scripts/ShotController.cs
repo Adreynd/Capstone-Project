@@ -5,7 +5,10 @@ using UnityEngine;
 public class ShotController : MonoBehaviour
 {
     //true = right, false = left
-    public bool direction;
+    public bool shootVertical;
+    public bool shootHorizontal;
+    public bool vertical = true;
+
     private Rigidbody2D body;
 
     public float time;
@@ -19,20 +22,43 @@ public class ShotController : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
 
-        //shoot right or left
-        if (direction)
+        //shoot direction
+        if (shootVertical && vertical)
         {
-            body.velocity = transform.right * speed;
+            body.velocity = transform.up * speed;
         }
         else
         {
-            body.velocity = transform.right * -1.0f * speed;
+            //if crouch in air
+            if (!shootVertical && vertical)
+            {
+                body.velocity = transform.up * -1.0f * speed;
+            }
+            else
+            {
+                //if facing right
+                if (shootHorizontal)
+                {
+                    body.velocity = transform.right * speed;
+                }
+                //if facing left
+                else
+                {
+                    body.velocity = transform.right * -1.0f * speed;
+                }
+            }
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //instantiate small animationg
+        if (collision.gameObject.tag == "Environment") { Destroy(gameObject); }
     }
 
     private void Update()
     {
         timer += Time.deltaTime;
-        if(timer > time) { Destroy(body.gameObject); }
+        if(timer > time) { Destroy(gameObject); }
     }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Grapple Target
   - Play Area
+  - Environment
   layers:
   - Default
   - TransparentFX

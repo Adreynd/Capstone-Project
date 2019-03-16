@@ -20,12 +20,13 @@ public class PlayerController : MonoBehaviour
     public float fireRate;                  // How fast you can shoot
     private float nextFire;                 //counter for fire rate
     private GameObject settingshot;
-
-    private KeyCode jumpKey = KeyCode.Z;
-    private KeyCode fireKey = KeyCode.X;
+    
     private bool teather;                   // Teather key input
     private bool crouch;                    // Crouch key input
+    private bool up;                        // Look up key input
     private bool jump;                      // Jump key input
+    private bool canDouble;                 // bool for being able to double dump
+    private bool doubleJump;                // double jump bool
     private bool facing;                    // True = right, False = left
     private bool grounded;                  // On the ground as opposed to in the air?
     private bool camFollow;                 // Camera is in follow mode?
@@ -38,6 +39,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         facing = true;
+        doubleJump = false;
         body = GetComponent<Rigidbody2D>();
         SetInitialState();
     }
@@ -58,43 +60,38 @@ public class PlayerController : MonoBehaviour
         // animate.SetBool("Crouch", Input.GetButtonDown("Crouched");
 
         #region Keys
-        if (Input.GetKeyDown(jumpKey) && grounded)
+        if (Input.GetButtonDown("Jump"))
         {
             // animate.SetTrigger("Jumping");
-            jump = true;
+            if (grounded) { jump = true; }
+            //double jump
+            else if (!grounded && canDouble) { doubleJump = true; canDouble = false; }
         }
-
-        else if (Input.GetKeyDown(jumpKey) && !grounded)
+        else if (Input.GetButtonDown("Jump") && !grounded)
         {
             if (body.velocity.y > 0)
                 body.velocity = new Vector2(body.velocity.x, body.velocity.y * .5f);
         }
 
-        if (Input.GetButtonDown("Crouch"))
-            crouch = true;
-        else if (Input.GetButtonUp("Crouch"))
-            crouch = false;
+        //crouch button press/release
+        if (Input.GetButtonDown("Look Up")) { up = true; }
+        else if (Input.GetButtonUp("Look Up")) { up = false; }
 
-        if (Input.GetButtonDown("Attack"))
-        {
-            fire = true;
-        }
-        
-        if(Input.GetButtonUp("Attack"))
-        {
-            fire = false;
-        }
+        //look/aim up
+        if (Input.GetButtonDown("Crouch")) { crouch = true; }
+        else if (Input.GetButtonUp("Crouch")) { crouch = false; }
 
-        if (Input.GetButtonDown("Teather"))
-        {
-            teather = true;
-        }
+        //Attack button press/release
+        if (Input.GetButtonDown("Attack") || Input.GetButtonDown("Fire1")) { fire = true; }
+        else if (Input.GetButtonUp("Attack") || Input.GetButtonUp("Fire1")) { fire = false; }
+
+        if (Input.GetButtonDown("Teather")) { teather = true; }
         #endregion
     }
 
     void FixedUpdate()
     {
-        controller.Move(hMove * speed * Time.fixedDeltaTime, crouch, jump);
+        controller.Move(hMove * speed * Time.fixedDeltaTime, crouch, jump, doubleJump);
 
         //direction facing
         if (hMove > 0) { facing = true; }
@@ -102,6 +99,7 @@ public class PlayerController : MonoBehaviour
 
         grounded = controller.m_Grounded;
 
+        //Fire if enough time has passed between shots and fire button is pressed
         if (fire && timer > fireRate)
         {
             Attack();
@@ -111,7 +109,10 @@ public class PlayerController : MonoBehaviour
         if (teather)
             CastTether();
 
+        if(grounded) { canDouble = true; }
+
         jump = false;
+        doubleJump = false;
         teather = false;
     }
 
@@ -126,17 +127,85 @@ public class PlayerController : MonoBehaviour
 
     void Attack()
     {
-        Vector3 attackSpawn = body.position;
+        //place where the shot spawns
+        Vector3 attackSpawn = GetShotSpawn();
+        //placeholder rotation
         Quaternion placeholderRotation = new Quaternion();
-
-        //change spawn location based on facing direction
-        if(facing){ attackSpawn.x++; }
-        else if(!facing){ attackSpawn.x--; }
-
         //shoot the shot
         settingshot = Instantiate(shot, attackSpawn, placeholderRotation);
+        //set the shot direction
+        SetShotDirection();
+    }
 
-        //set shot direction
-        settingshot.GetComponent<ShotController>().direction = facing;
+    private Vector3 GetShotSpawn()
+    {
+        Vector3 attackSpawn = body.position;
+
+        //if up is held always shoot up
+        if(up)
+        {
+            attackSpawn.y++;
+        }
+        else
+        {
+            //if crouch in air
+            if(crouch && !grounded)
+            {
+                attackSpawn.y--;
+            }
+            else
+            {
+                //if facing right
+                if(facing)
+                {
+                    attackSpawn.x++;
+                }
+                //if facing left
+                else
+                {
+                    attackSpawn.x--;
+                }
+                //if crouched on ground
+                if(crouch && grounded)
+                {
+                    attackSpawn.y -= 0.5f;
+                }
+            }
+        }
+
+        return attackSpawn;
+    }
+
+    private void SetShotDirection()
+    {
+        //if shooting up
+        if (up)
+        {
+            settingshot.GetComponent<ShotController>().shootVertical = true;
+        }
+        else
+        {
+            //if crouch in air
+            if (crouch && !grounded)
+            {
+                settingshot.GetComponent<ShotController>().shootVertical = false;
+            }
+            else
+            {
+                //not a vertical shot
+                settingshot.GetComponent<ShotController>().vertical = false;
+
+                //if facing right
+                if (facing)
+                {
+                    settingshot.GetComponent<ShotController>().shootHorizontal = true;
+                }
+                //if facing left
+                else
+                {
+                    settingshot.GetComponent<ShotController>().shootHorizontal = false;
+                }
+            }
+        }
     }
 }
