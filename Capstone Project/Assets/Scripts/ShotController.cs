@@ -7,7 +7,10 @@ public class ShotController : MonoBehaviour
     //true = right, false = left
     public bool shootVertical;
     public bool shootHorizontal;
+    public bool shootDiagonal;
+
     public bool vertical = true;
+    public bool diagonal = false;
 
     private Rigidbody2D body;
 
@@ -20,12 +23,22 @@ public class ShotController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log(vertical.ToString() + shootDiagonal.ToString() + shootVertical.ToString() + diagonal.ToString() + shootHorizontal.ToString());
         body = GetComponent<Rigidbody2D>();
 
         //shoot direction
         if (shootVertical && vertical)
         {
             body.velocity = transform.up * speed;
+
+            if(diagonal && shootDiagonal)
+            {
+                body.velocity = new Vector2(speed, speed);
+            }
+            else if (diagonal && !shootDiagonal)
+            {
+                body.velocity = new Vector2(-speed, speed);
+            }
         }
         else
         {
@@ -33,6 +46,15 @@ public class ShotController : MonoBehaviour
             if (!shootVertical && vertical)
             {
                 body.velocity = transform.up * -1.0f * speed;
+
+                if (diagonal && shootDiagonal)
+                {
+                    body.velocity = new Vector2(speed, -speed);
+                }
+                else if (diagonal && !shootDiagonal)
+                {
+                    body.velocity = new Vector2(-speed, -speed);
+                }
             }
             else
             {
@@ -54,6 +76,7 @@ public class ShotController : MonoBehaviour
     {
         //instantiate small animationg
         if (collision.gameObject.tag == "Environment") { Destroy(gameObject); }
+        if (collision.gameObject.tag == "Enemy1") { Destroy(collision.gameObject.transform.parent.gameObject); }
     }
 
     private void Update()

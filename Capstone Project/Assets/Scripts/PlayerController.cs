@@ -78,8 +78,8 @@ public class PlayerController : MonoBehaviour
         else if (Input.GetButtonUp("Look Up")) { up = false; }
 
         //look/aim up
-        if (Input.GetButtonDown("Crouch")) { crouch = true; }
-        else if (Input.GetButtonUp("Crouch")) { crouch = false; }
+        if (Input.GetAxisRaw("Vertical") < 0) { crouch = true; }
+        else if (Input.GetAxisRaw("Vertical") >= 0) { crouch = false; }
 
         //Attack button press/release
         if (Input.GetButtonDown("Attack") || Input.GetButtonDown("Fire1")) { fire = true; }
@@ -116,6 +116,12 @@ public class PlayerController : MonoBehaviour
         teather = false;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        if(collision.gameObject.tag == "Enemy1") { Destroy(gameObject); }
+    }
+
     void CastTether()           // Currently non functional
     {
         if (!tetherOut)
@@ -145,13 +151,29 @@ public class PlayerController : MonoBehaviour
         if(up)
         {
             attackSpawn.y++;
+            if (Input.GetAxisRaw("Horizontal") > 0)
+            {
+                attackSpawn.x++;
+            }
+            else if(Input.GetAxisRaw("Horizontal") < 0)
+            {
+                attackSpawn.x--;
+            }
         }
         else
         {
             //if crouch in air
-            if(crouch && !grounded)
+            if(Input.GetAxisRaw("Vertical") < 0 && !grounded)
             {
                 attackSpawn.y--;
+                if (Input.GetAxisRaw("Horizontal") > 0)
+                {
+                    attackSpawn.x++;
+                }
+                else if (Input.GetAxisRaw("Horizontal") < 0)
+                {
+                    attackSpawn.x--;
+                }
             }
             else
             {
@@ -182,18 +204,43 @@ public class PlayerController : MonoBehaviour
         if (up)
         {
             settingshot.GetComponent<ShotController>().shootVertical = true;
+
+            if (Input.GetAxisRaw("Horizontal") > 0)
+            {
+                settingshot.GetComponent<ShotController>().diagonal = true;
+                settingshot.GetComponent<ShotController>().diagonal = true;
+                settingshot.GetComponent<ShotController>().shootDiagonal = true;
+            }
+            else if (Input.GetAxisRaw("Horizontal") < 0)
+            {
+                settingshot.GetComponent<ShotController>().diagonal = true;
+                settingshot.GetComponent<ShotController>().diagonal = true;
+                settingshot.GetComponent<ShotController>().shootDiagonal = false;
+            }
         }
         else
         {
-            //if crouch in air
-            if (crouch && !grounded)
+            if (!grounded && Input.GetAxisRaw("Vertical") < 0)
             {
-                settingshot.GetComponent<ShotController>().shootVertical = false;
+                    settingshot.GetComponent<ShotController>().shootVertical = false;
+                    //if crouch in air and holding horizontal
+                    if (Input.GetAxisRaw("Horizontal") > 0)
+                    {
+                        settingshot.GetComponent<ShotController>().diagonal = true;
+                        settingshot.GetComponent<ShotController>().shootDiagonal = true;
+                    }
+                    else if (Input.GetAxisRaw("Horizontal") < 0)
+                    {
+                        settingshot.GetComponent<ShotController>().diagonal = true;
+                        settingshot.GetComponent<ShotController>().shootDiagonal = false;
+                    }
             }
             else
             {
                 //not a vertical shot
                 settingshot.GetComponent<ShotController>().vertical = false;
+
+                Debug.Log(settingshot.GetComponent<ShotController>().vertical);
 
                 //if facing right
                 if (facing)
