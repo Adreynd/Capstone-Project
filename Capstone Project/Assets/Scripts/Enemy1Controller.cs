@@ -37,7 +37,7 @@ public class Enemy1Controller : MonoBehaviour
     void FixedUpdate()
     {
         //If the player gets close enough and the enemy can jump
-        if(Vector2.Distance(body.transform.position, player.transform.position) < 12 && timer > jumpCD)
+        if(player != null && (Vector2.Distance(body.transform.position, player.transform.position) < 12 && timer > jumpCD))
         {
             //reset timer
             timer = 0;

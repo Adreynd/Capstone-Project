@@ -1,36 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2853665707026617204
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 6404041082326876016}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3587119867970801559}
-  m_Layer: 0
-  m_Name: Robot_Prototype (Missing Prefab)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3587119867970801559
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 6404041082326876016}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2853665707026617204}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 6404041082327262718}
-  m_Father: {fileID: 3117654493854114465}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3117654492376922316
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,7 +93,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 3587119867970801559}
+  - {fileID: 6404041082327262718}
   - {fileID: 3117654492475133664}
   - {fileID: 3117654492376922317}
   m_Father: {fileID: 0}
@@ -252,37 +221,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0103468, y: 1.2343392}
   m_EdgeRadius: 0
---- !u!1 &5531605194288729538
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 6404041082326876016}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6404041082327262718}
-  m_Layer: 0
-  m_Name: Missing Prefab (Dummy)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6404041082327262718
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 400014, guid: cf12473a3c246344688ad9b01867e50c,
-    type: 3}
-  m_PrefabInstance: {fileID: 6404041082326876016}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5531605194288729538}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3587119867970801559}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &6404041082326876016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -352,3 +290,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf12473a3c246344688ad9b01867e50c, type: 3}
+--- !u!4 &6404041082327262718 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400014, guid: cf12473a3c246344688ad9b01867e50c,
+    type: 3}
+  m_PrefabInstance: {fileID: 6404041082326876016}
+  m_PrefabAsset: {fileID: 0}
