@@ -13,9 +13,1859 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-03-18T08:16:12.787-07:00
-  initializedAtString: 2019-03-17T22:53:01.832-07:00
+  lastUpdatedAtString: 2019-03-18T18:09:10.873-07:00
+  initializedAtString: 2019-03-18T15:01:51.297-07:00
   log:
+  - commitID: dca015305de6e2d1ca79938731f8e3e6e08fcf95
+    mergeA: 
+    mergeB: 
+    authorName: Adreynd
+    authorEmail: jackimball@yahoo.com
+    commitEmail: jackimball@yahoo.com
+    commitName: Adreynd
+    summary: Prototype build 1
+    description: "Prototype build 1\r\n\r\nRemoved errors that occur when enemies
+      refernece the player object after the player object has been destroyed. Removed
+      Capsule renderer that was on top of the player for some reason. Built version
+      for 135 class demo"
+    timeString: 2019-03-18T08:36:46.000-07:00
+    commitTimeString: 2019-03-18T08:36:46.000-07:00
+    changes:
+    - path: Capstone Project\Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Assembly-CSharp.csproj
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Assets\Prefabs\Player.prefab
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Assets\Prefabs\Player.prefab
+      projectPath: Assets\Prefabs\Player.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Assets\Scenes\Main.unity
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Assets\Scenes\Main.unity
+      projectPath: Assets\Scenes\Main.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Assets\Scripts\Enemy1Controller.cs
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Assets\Scripts\Enemy1Controller.cs
+      projectPath: Assets\Scripts\Enemy1Controller.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project.exe
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project.exe
+      projectPath: Build 1\Capstone Project.exe
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\Assembly-CSharp.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\Assembly-CSharp.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\Cinemachine.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\Cinemachine.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\Cinemachine.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\Mono.Security.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\Mono.Security.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\Mono.Security.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.ComponentModel.Composition.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.ComponentModel.Composition.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.ComponentModel.Composition.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.Configuration.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.Configuration.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.Configuration.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.Core.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.Core.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.Core.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.Data.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.Data.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.Data.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.Diagnostics.StackTrace.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.Diagnostics.StackTrace.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.Diagnostics.StackTrace.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.Drawing.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.Drawing.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.Drawing.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.EnterpriseServices.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.EnterpriseServices.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.EnterpriseServices.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.Globalization.Extensions.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.Globalization.Extensions.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.Globalization.Extensions.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.IO.Compression.FileSystem.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.IO.Compression.FileSystem.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.IO.Compression.FileSystem.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.IO.Compression.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.IO.Compression.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.IO.Compression.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.Net.Http.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.Net.Http.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.Net.Http.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.Numerics.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.Numerics.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.Numerics.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.Runtime.Serialization.Xml.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.Runtime.Serialization.Xml.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.Runtime.Serialization.Xml.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.Runtime.Serialization.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.Runtime.Serialization.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.Runtime.Serialization.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.ServiceModel.Internals.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.ServiceModel.Internals.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.ServiceModel.Internals.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.Transactions.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.Transactions.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.Transactions.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.Xml.Linq.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.Xml.Linq.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.Xml.Linq.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.Xml.XPath.XDocument.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.Xml.XPath.XDocument.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.Xml.XPath.XDocument.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.Xml.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.Xml.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.Xml.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\System.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\System.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\System.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\Unity.Analytics.DataPrivacy.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\Unity.Analytics.DataPrivacy.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\Unity.Analytics.DataPrivacy.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\Unity.Analytics.StandardEvents.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\Unity.Analytics.StandardEvents.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\Unity.Analytics.StandardEvents.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\Unity.Analytics.Tracker.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\Unity.Analytics.Tracker.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\Unity.Analytics.Tracker.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\Unity.TextMeshPro.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\Unity.TextMeshPro.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\Unity.TextMeshPro.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AIModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AIModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.AIModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AIModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AIModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.AIModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ARModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ARModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ARModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ARModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ARModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ARModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AccessibilityModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AccessibilityModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.AccessibilityModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AccessibilityModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AccessibilityModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.AccessibilityModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AnimationModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AnimationModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.AnimationModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AnimationModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AnimationModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.AnimationModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AssetBundleModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AssetBundleModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.AssetBundleModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AssetBundleModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AssetBundleModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.AssetBundleModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AudioModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AudioModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.AudioModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AudioModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.AudioModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.AudioModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.BaselibModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.BaselibModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.BaselibModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.BaselibModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.BaselibModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.BaselibModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ClothModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ClothModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ClothModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ClothModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ClothModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ClothModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ClusterInputModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ClusterInputModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ClusterInputModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ClusterInputModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ClusterInputModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ClusterInputModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ClusterRendererModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ClusterRendererModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.CoreModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.CoreModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.CoreModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.CoreModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.CoreModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.CoreModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.CrashReportingModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.CrashReportingModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.CrashReportingModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.CrashReportingModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.CrashReportingModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.CrashReportingModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.DirectorModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.DirectorModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.DirectorModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.DirectorModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.DirectorModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.DirectorModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.FileSystemHttpModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.FileSystemHttpModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.FileSystemHttpModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.FileSystemHttpModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.FileSystemHttpModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.FileSystemHttpModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.GameCenterModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.GameCenterModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.GameCenterModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.GameCenterModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.GameCenterModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.GameCenterModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.GridModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.GridModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.GridModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.GridModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.GridModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.GridModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.HotReloadModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.HotReloadModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.HotReloadModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.HotReloadModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.HotReloadModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.HotReloadModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.IMGUIModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.IMGUIModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.IMGUIModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.IMGUIModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.IMGUIModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.IMGUIModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ImageConversionModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ImageConversionModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ImageConversionModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ImageConversionModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ImageConversionModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ImageConversionModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.InputModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.InputModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.InputModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.InputModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.InputModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.InputModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.JSONSerializeModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.JSONSerializeModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.LocalizationModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.LocalizationModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.LocalizationModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.LocalizationModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.LocalizationModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.LocalizationModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.Networking.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.Networking.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.Networking.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ParticleSystemModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ParticleSystemModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.PerformanceReportingModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.PerformanceReportingModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.Physics2DModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.Physics2DModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.Physics2DModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.Physics2DModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.Physics2DModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.Physics2DModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.PhysicsModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.PhysicsModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.PhysicsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.PhysicsModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.PhysicsModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.PhysicsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ProfilerModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ProfilerModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ProfilerModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ProfilerModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ProfilerModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ProfilerModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ScreenCaptureModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.ScreenCaptureModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.SharedInternalsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.SharedInternalsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SpatialTracking.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SpatialTracking.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.SpatialTracking.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.SpriteMaskModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.SpriteMaskModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.SpriteShapeModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.SpriteShapeModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.StreamingModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.StreamingModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.StreamingModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.StreamingModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.StreamingModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.StreamingModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.StyleSheetsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.StyleSheetsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SubstanceModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SubstanceModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.SubstanceModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SubstanceModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.SubstanceModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.SubstanceModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TLSModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TLSModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.TLSModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TLSModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TLSModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.TLSModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TerrainModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TerrainModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.TerrainModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TerrainModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TerrainModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.TerrainModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.TerrainPhysicsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.TerrainPhysicsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TextCoreModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TextCoreModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.TextCoreModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TextCoreModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TextCoreModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.TextCoreModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TextRenderingModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TextRenderingModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.TextRenderingModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TextRenderingModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TextRenderingModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.TextRenderingModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TilemapModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TilemapModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.TilemapModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TilemapModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TilemapModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.TilemapModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.Timeline.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.Timeline.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.Timeline.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TimelineModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TimelineModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.TimelineModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TimelineModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.TimelineModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.TimelineModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UI.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UI.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UI.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UIElementsModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UIElementsModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UIElementsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UIElementsModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UIElementsModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UIElementsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UIModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UIModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UIModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UIModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UIModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UIModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UNETModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UNETModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UNETModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UNETModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UNETModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UNETModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UmbraModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UmbraModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UmbraModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UmbraModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UmbraModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UmbraModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityAnalyticsModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityAnalyticsModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityConnectModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityConnectModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityConnectModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityConnectModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityConnectModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityConnectModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityTestProtocolModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityTestProtocolModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityTestProtocolModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityTestProtocolModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestAudioModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestTextureModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.UnityWebRequestWWWModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VFXModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VFXModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.VFXModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VFXModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VFXModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.VFXModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VRModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VRModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.VRModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VRModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VRModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.VRModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VehiclesModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VehiclesModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.VehiclesModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VehiclesModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VehiclesModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.VehiclesModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VideoModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VideoModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.VideoModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VideoModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.VideoModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.VideoModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.WindModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.WindModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.WindModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.WindModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.WindModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.WindModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.XRModule.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.XRModule.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.XRModule.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.XRModule.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.XRModule.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.XRModule.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\UnityEngine.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\UnityEngine.xml
+      projectPath: Build 1\Capstone Project_Data\Managed\UnityEngine.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\mscorlib.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\mscorlib.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\mscorlib.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Managed\netstandard.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Managed\netstandard.dll
+      projectPath: Build 1\Capstone Project_Data\Managed\netstandard.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Resources\unity default
+        resources
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Resources\unity default resources
+      projectPath: Build 1\Capstone Project_Data\Resources\unity default resources
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\Resources\unity_builtin_extra
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\Resources\unity_builtin_extra
+      projectPath: Build 1\Capstone Project_Data\Resources\unity_builtin_extra
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\app.info
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\app.info
+      projectPath: Build 1\Capstone Project_Data\app.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\boot.config
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\boot.config
+      projectPath: Build 1\Capstone Project_Data\boot.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\globalgamemanagers
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\globalgamemanagers
+      projectPath: Build 1\Capstone Project_Data\globalgamemanagers
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\globalgamemanagers.assets
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\globalgamemanagers.assets
+      projectPath: Build 1\Capstone Project_Data\globalgamemanagers.assets
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\level0
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\level0
+      projectPath: Build 1\Capstone Project_Data\level0
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\Capstone Project_Data\sharedassets0.assets
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\Capstone Project_Data\sharedassets0.assets
+      projectPath: Build 1\Capstone Project_Data\sharedassets0.assets
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+      projectPath: Build 1\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+      projectPath: Build 1\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\2.0\Browsers\Compat.browser
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\2.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\2.0\machine.config
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\2.0\machine.config
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\2.0\machine.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\2.0\settings.map
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\2.0\settings.map
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\2.0\settings.map
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\2.0\web.config
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\2.0\web.config
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\2.0\web.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\4.0\Browsers\Compat.browser
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\4.0\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\4.0\machine.config
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\4.0\machine.config
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\4.0\machine.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\4.0\settings.map
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\4.0\settings.map
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\4.0\settings.map
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\4.0\web.config
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\4.0\web.config
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\4.0\web.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\4.5\Browsers\Compat.browser
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\4.5\DefaultWsdlHelpGenerator.aspx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\4.5\machine.config
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\4.5\machine.config
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\4.5\machine.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\4.5\settings.map
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\4.5\settings.map
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\4.5\settings.map
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\4.5\web.config
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\4.5\web.config
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\4.5\web.config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\browscap.ini
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\browscap.ini
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\browscap.ini
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\config
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\config
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\config
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\MonoBleedingEdge\etc\mono\mconfig\config.xml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\MonoBleedingEdge\etc\mono\mconfig\config.xml
+      projectPath: Build 1\MonoBleedingEdge\etc\mono\mconfig\config.xml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\UnityCrashHandler64.exe
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\UnityCrashHandler64.exe
+      projectPath: Build 1\UnityCrashHandler64.exe
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\UnityPlayer.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\UnityPlayer.dll
+      projectPath: Build 1\UnityPlayer.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Build 1\WinPixEventRuntime.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Build 1\WinPixEventRuntime.dll
+      projectPath: Build 1\WinPixEventRuntime.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Capstone Project\Capstone Project.sln
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Capstone Project.sln
+      projectPath: Capstone Project.sln
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\CurrentLayout.dwlt
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\EditorUserBuildSettings.asset
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\EditorUserBuildSettings.asset
+      projectPath: Library\EditorUserBuildSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Cinemachine.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Cinemachine.dll
+      projectPath: Library\ScriptAssemblies\Cinemachine.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Cinemachine.pdb
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Cinemachine.pdb
+      projectPath: Library\ScriptAssemblies\Cinemachine.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+      projectPath: Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.pdb
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.pdb
+      projectPath: Library\ScriptAssemblies\com.unity.cinemachine.editor.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\assetDatabase3
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\branches.yaml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\01\0181db608628b494d8ae50728e507ce1
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\01\0181db608628b494d8ae50728e507ce1
+      projectPath: Library\metadata\01\0181db608628b494d8ae50728e507ce1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\11\1186b8795dc3fc84e8ec53bd314d8e91
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\11\1186b8795dc3fc84e8ec53bd314d8e91
+      projectPath: Library\metadata\11\1186b8795dc3fc84e8ec53bd314d8e91
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\15\15ef94834d9e4aa44ac8fe619843346b
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\15\15ef94834d9e4aa44ac8fe619843346b
+      projectPath: Library\metadata\15\15ef94834d9e4aa44ac8fe619843346b
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\18\180ecf9b41d478f468eb3e9083753217
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\18\180ecf9b41d478f468eb3e9083753217
+      projectPath: Library\metadata\18\180ecf9b41d478f468eb3e9083753217
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\1f\1ff9d8296ed1f02419bf4f417ff2265e
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\1f\1ff9d8296ed1f02419bf4f417ff2265e
+      projectPath: Library\metadata\1f\1ff9d8296ed1f02419bf4f417ff2265e
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\2a\2adf148a19499274795e418631d7db45
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\2a\2adf148a19499274795e418631d7db45
+      projectPath: Library\metadata\2a\2adf148a19499274795e418631d7db45
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\2c\2c760cb7073c57e44959f36cbed8ed39
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\2c\2c760cb7073c57e44959f36cbed8ed39
+      projectPath: Library\metadata\2c\2c760cb7073c57e44959f36cbed8ed39
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\32\3226d9f88577be74197693bd17cff8c3
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\32\3226d9f88577be74197693bd17cff8c3
+      projectPath: Library\metadata\32\3226d9f88577be74197693bd17cff8c3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\3f\3f7c779802a73d5448e38af7c39fbaa5
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\3f\3f7c779802a73d5448e38af7c39fbaa5
+      projectPath: Library\metadata\3f\3f7c779802a73d5448e38af7c39fbaa5
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\47\4700f9f03ad19f94baf0367cb7a9c988
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\47\4700f9f03ad19f94baf0367cb7a9c988
+      projectPath: Library\metadata\47\4700f9f03ad19f94baf0367cb7a9c988
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\4a\4a9c464b0191f7d4da1d129d97d8240b
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\4a\4a9c464b0191f7d4da1d129d97d8240b
+      projectPath: Library\metadata\4a\4a9c464b0191f7d4da1d129d97d8240b
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\4f\4fa53a91a43ae1a4bbf6b29961b45c38
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\4f\4fa53a91a43ae1a4bbf6b29961b45c38
+      projectPath: Library\metadata\4f\4fa53a91a43ae1a4bbf6b29961b45c38
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\57\57744762d9079934292f57896d8193e0
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\57\57744762d9079934292f57896d8193e0
+      projectPath: Library\metadata\57\57744762d9079934292f57896d8193e0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\82\829e606f890b35c47aa29643517add2e
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\82\829e606f890b35c47aa29643517add2e
+      projectPath: Library\metadata\82\829e606f890b35c47aa29643517add2e
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\8a\8ad60cb17f7694c43a8190c617281753
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\8a\8ad60cb17f7694c43a8190c617281753
+      projectPath: Library\metadata\8a\8ad60cb17f7694c43a8190c617281753
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\9a\9a53087ba28aaf145a184ea363108831
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\9a\9a53087ba28aaf145a184ea363108831
+      projectPath: Library\metadata\9a\9a53087ba28aaf145a184ea363108831
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\9c\9ce16cd7e31794b48b2843381cd87d31
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\9c\9ce16cd7e31794b48b2843381cd87d31
+      projectPath: Library\metadata\9c\9ce16cd7e31794b48b2843381cd87d31
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\a5\a5969901aa40942499363f92e3787110
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\a5\a5969901aa40942499363f92e3787110
+      projectPath: Library\metadata\a5\a5969901aa40942499363f92e3787110
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\a6\a60d9407e2bb20e4ea00281b1e33eae7
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\a6\a60d9407e2bb20e4ea00281b1e33eae7
+      projectPath: Library\metadata\a6\a60d9407e2bb20e4ea00281b1e33eae7
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\a7\a73149a4b6c41d741bc5e4e3b7711c0d
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\a7\a73149a4b6c41d741bc5e4e3b7711c0d
+      projectPath: Library\metadata\a7\a73149a4b6c41d741bc5e4e3b7711c0d
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\a8\a8725b08dfa3851468b1f029bb53c966
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\a8\a8725b08dfa3851468b1f029bb53c966
+      projectPath: Library\metadata\a8\a8725b08dfa3851468b1f029bb53c966
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\a9\a9e63e62da42ce141b35602019323584
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\a9\a9e63e62da42ce141b35602019323584
+      projectPath: Library\metadata\a9\a9e63e62da42ce141b35602019323584
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\ac\aceb1a3f85f55c249bba6eaade29f2aa
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\ac\aceb1a3f85f55c249bba6eaade29f2aa
+      projectPath: Library\metadata\ac\aceb1a3f85f55c249bba6eaade29f2aa
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\b1\b1a97a2b5515f5d49977e7e8add5b7a9
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\b1\b1a97a2b5515f5d49977e7e8add5b7a9
+      projectPath: Library\metadata\b1\b1a97a2b5515f5d49977e7e8add5b7a9
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\b5\b567991935cb6844d9bb65eda22b628f
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\b5\b567991935cb6844d9bb65eda22b628f
+      projectPath: Library\metadata\b5\b567991935cb6844d9bb65eda22b628f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\b5\b56f2475416eeea4c916add2d7268ad1
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\b5\b56f2475416eeea4c916add2d7268ad1
+      projectPath: Library\metadata\b5\b56f2475416eeea4c916add2d7268ad1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\ba\ba59c38a116ff2f4fb69f825ba0da3bc
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\ba\ba59c38a116ff2f4fb69f825ba0da3bc
+      projectPath: Library\metadata\ba\ba59c38a116ff2f4fb69f825ba0da3bc
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\c0\c0d6910df7c989c4abc7d5ddf0e421b2
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\c0\c0d6910df7c989c4abc7d5ddf0e421b2
+      projectPath: Library\metadata\c0\c0d6910df7c989c4abc7d5ddf0e421b2
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\c6\c63cb4cb8e3e82c4f8bfa7516da4f2b5
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\c6\c63cb4cb8e3e82c4f8bfa7516da4f2b5
+      projectPath: Library\metadata\c6\c63cb4cb8e3e82c4f8bfa7516da4f2b5
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\c6\c64ec1fa74cb7174da4b9f561a7dffe1
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\c6\c64ec1fa74cb7174da4b9f561a7dffe1
+      projectPath: Library\metadata\c6\c64ec1fa74cb7174da4b9f561a7dffe1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\ce\cebc3fe47a919524eb4a977f726a484e
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\ce\cebc3fe47a919524eb4a977f726a484e
+      projectPath: Library\metadata\ce\cebc3fe47a919524eb4a977f726a484e
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\e4\e43d79f7f0b25474996563aac2c48208
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\e4\e43d79f7f0b25474996563aac2c48208
+      projectPath: Library\metadata\e4\e43d79f7f0b25474996563aac2c48208
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\e4\e43d79f7f0b25474996563aac2c48208.info
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\e4\e43d79f7f0b25474996563aac2c48208.info
+      projectPath: Library\metadata\e4\e43d79f7f0b25474996563aac2c48208.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\e4\e44b92e217bfdf24d99acb4344918eeb
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\e4\e44b92e217bfdf24d99acb4344918eeb
+      projectPath: Library\metadata\e4\e44b92e217bfdf24d99acb4344918eeb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\e4\e46ac8d61dc065848bd5a1aa7cd8c006
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\e4\e46ac8d61dc065848bd5a1aa7cd8c006
+      projectPath: Library\metadata\e4\e46ac8d61dc065848bd5a1aa7cd8c006
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\eb\eb8e037cb3f873743a725427c8c22342
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\eb\eb8e037cb3f873743a725427c8c22342
+      projectPath: Library\metadata\eb\eb8e037cb3f873743a725427c8c22342
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\ed\ed3efd28525441947b55ec9b5d68ba31
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\ed\ed3efd28525441947b55ec9b5d68ba31
+      projectPath: Library\metadata\ed\ed3efd28525441947b55ec9b5d68ba31
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\ee\ee42f1964a0e8224c90be81905946699
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\ee\ee42f1964a0e8224c90be81905946699
+      projectPath: Library\metadata\ee\ee42f1964a0e8224c90be81905946699
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\metadata\fc\fc54afb14b6b01a4dabc4c8831cb7bf7
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\metadata\fc\fc54afb14b6b01a4dabc4c8831cb7bf7
+      projectPath: Library\metadata\fc\fc54afb14b6b01a4dabc4c8831cb7bf7
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\shadercompiler-UnityShaderCompiler.exe1.log
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\shadercompiler-UnityShaderCompiler.exe1.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\Library\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\Library\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Capstone Project\ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\James\Desktop\Programming Homework Archive\Capstone Project\Capstone-Project\Capstone
+        Project\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 45e97840811d90a7f257ee54c2eca71e59feb2c6
     mergeA: 
     mergeB: 

@@ -9,7 +9,8 @@ public class TeatherController : MonoBehaviour
     private bool reached;
     private bool released;
     private bool contact;
-    public float distance = 1;
+    private float distance = 1;
+    public float deployAngle;
     public float speed;
     public float tetherRange;
 
@@ -22,9 +23,15 @@ public class TeatherController : MonoBehaviour
         Vector3 targetVelocity;
 
         if (player.hMove != 0)
-            targetVelocity = new Vector2(0.707f * Mathf.Abs(player.hMove) / player.hMove, 0.707f);
+        {
+            transform.Rotate(0.0f, 0.0f, deployAngle, Space.Self);
+            targetVelocity = new Vector2(Mathf.Cos(deployAngle / 180 * Mathf.PI) * Mathf.Abs(player.hMove) / player.hMove, Mathf.Sin(deployAngle / 180 * Mathf.PI));
+        }
         else
+        {
+            transform.Rotate(0.0f, 0.0f, 90.0f, Space.Self);
             targetVelocity = new Vector2(0.0f, 1.0f);
+        }
         body.velocity = targetVelocity * speed;
     }
 

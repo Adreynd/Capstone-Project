@@ -67,7 +67,8 @@ public class PlayerController : MonoBehaviour
             //double jump
             else if (!grounded && canDouble) { doubleJump = true; canDouble = false; }
         }
-        else if (Input.GetButtonDown("Jump") && !grounded)
+
+        if (Input.GetButtonUp("Jump") && !grounded)     // Short hop code
         {
             if (body.velocity.y > 0)
                 body.velocity = new Vector2(body.velocity.x, body.velocity.y * .5f);
@@ -114,12 +115,6 @@ public class PlayerController : MonoBehaviour
         jump = false;
         doubleJump = false;
         teather = false;
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Debug.Log(collision.gameObject.tag);
-        if(collision.gameObject.tag == "Enemy1") { Destroy(gameObject); }
     }
 
     void CastTether()           // Currently non functional

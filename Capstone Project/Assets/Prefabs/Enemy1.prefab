@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 1461811924101390454}
   - component: {fileID: 1461811924800111998}
   - component: {fileID: 3449074785841798980}
+  - component: {fileID: 1535033476051133479}
   m_Layer: 0
   m_Name: Enemy1
   m_TagString: Enemy1
@@ -203,6 +204,19 @@ MonoBehaviour:
   jumpspeed: 0
   jumpheight: 0
   jumpCD: 0
+--- !u!114 &1535033476051133479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461811924099202742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 208d81f287dac7648aa87330ee0576a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dammage: 0
 --- !u!1 &1461811924367186027
 GameObject:
   m_ObjectHideFlags: 0
